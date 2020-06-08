@@ -77,6 +77,9 @@ if(number_1 < number_2 && number_2< number_3 || number_1 > number_2 && number_2>
 else if(number_2 < number_1 && number_1 < number_3 || number_2 > number_1 && number_1 > number_3){
     alert(number_1)
 }
-else if(number_1 < number_1 && number_3){
+else if(number_1 < number_3 && number_3 < number_2 || number_3 < number_1 && number_3 > number_2){
     alert(number_3)
+}
+else{
+    alert("Siz kiritgan sono'rta qiymatga ega emas")
 }
